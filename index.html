@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Yuyang Dai</title>
   <link rel="stylesheet" href="assets/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🎓</text></svg>">
 </head>
 <body>
 
 <header class="navbar">
   <nav>
+    <a class="site-name" href="index.html">Y. Dai</a>
     <a class="active" href="index.html">About</a>
     <a href="publications.html">Publications</a>
     <a href="projects.html">Projects</a>
@@ -19,48 +22,149 @@
 
 <main class="container">
 
-  <section class="intro">
+  <!-- ====== Intro ====== -->
+  <div class="intro">
     <div class="intro-text">
-      <h1><strong>Yuyang</strong> Dai</h1>
+      <h1>Yuyang <span>Dai</span></h1>
 
       <p>
-        I am an incoming PhD student in Computer Science at
-        <strong>Florida State University</strong> (2026–2030).
+        I am an incoming <strong>PhD student in Computer Science</strong> at
+        <strong>Florida State University</strong> (Fall 2026).
+      </p>
+      <p>
+        Previously, I was a research assistant at
+        <strong>SUTD</strong>, <strong>National Taiwan University</strong>,
+        <strong>HKUST</strong>, and <strong>UC Berkeley Haas</strong>.
+        I also spent a semester as an exchange student at
+        <strong>UC Berkeley</strong>.
+      </p>
+      <p>
+        My research interests span <strong>multilingual & multicultural LLM reasoning</strong>,
+        <strong>multi-agent systems</strong>, <strong>social communication</strong>,
+        and <strong>financial reasoning under incomplete information</strong>.
       </p>
 
-      <p>
-        Previously, I worked as a research assistant at
-        SUTD, NTU, HKUST, and UC Berkeley Haas.
-      </p>
+      <div class="interests">
+        <span class="pill">LLM Reasoning</span>
+        <span class="pill">Multilingual NLP</span>
+        <span class="pill">Multi-Agent Systems</span>
+        <span class="pill">Financial AI</span>
+        <span class="pill">Metacognition</span>
+      </div>
 
-      <p>
-        My research interests include multilingual and multicultural
-        LLM reasoning, multi-agent systems, social communication,
-        and financial reasoning under incomplete information.
-      </p>
+      <div class="intro-links">
+        <a href="mailto:y9657422@gmail.com">
+          <svg><rect x="2" y="4" width="20" height="16" rx="2"/><polyline points="22,4 12,13 2,4"/></svg>
+          Email
+        </a>
+        <a href="https://github.com/yuyangdai" target="_blank">
+          <svg><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/></svg>
+          GitHub
+        </a>
+        <a href="cv.pdf" target="_blank">
+          <svg><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+          CV
+        </a>
+      </div>
     </div>
 
     <div class="intro-photo">
-      <img src="assets/avatar.jpg" alt="Yuyang Dai">
-      <p class="address">
-        Singapore / United States
-      </p>
+      <img src="assets/avatar.jpg" alt="Yuyang Dai" />
+      <p class="address">Singapore / United States</p>
     </div>
-  </section>
+  </div>
 
+  <!-- ====== News ====== -->
   <section class="news">
-    <h2>news</h2>
-    <ul>
+    <h2 class="section-title">News</h2>
+    <ul class="news-list">
       <li>
-        <span class="date">May 2026</span>
-        One paper submitted to ACL 2026.
+        <span class="date">Jun 2026</span>
+        <div>Starting PhD in Computer Science at Florida State University. <span class="badge badge-new">New</span></div>
       </li>
       <li>
-        <span class="date">Jan 2026</span>
-        Incoming PhD student at Florida State University.
+        <span class="date">May 2026</span>
+        <div>Two papers submitted to <strong>ACL 2026</strong> — one on multilingual LLM conversations, one on financial reasoning (RealFin).</div>
+      </li>
+      <li>
+        <span class="date">Mar 2026</span>
+        <div>Paper on FinMMEval Lab published at <strong>ECIR 2026</strong>.</div>
+      </li>
+      <li>
+        <span class="date">Feb 2026</span>
+        <div>Paper on GraphIP-Bench submitted to <strong>ICLR 2026</strong>.</div>
+      </li>
+      <li>
+        <span class="date">Nov 2025</span>
+        <div>Joined <strong>SUTD</strong> as a Research Assistant, working on multilingual-multicultural LLM society simulations.</div>
+      </li>
+      <li>
+        <span class="date">Aug 2025</span>
+        <div>Joined <strong>HKUST</strong> as a Research Assistant, building agent-based financial market models.</div>
+      </li>
+      <li>
+        <span class="date">Feb 2025</span>
+        <div>Joined <strong>National Taiwan University</strong> working on metacognition in LLMs.</div>
       </li>
     </ul>
   </section>
+
+  <!-- ====== Selected Publications ====== -->
+  <section>
+    <h2 class="section-title">Selected Publications</h2>
+
+    <div class="pub-item">
+      <span class="pub-status status-review">Under Review</span>
+      <div class="pub-title">Evaluating Multilingual Human-like Conversations of LLMs in Social Communications</div>
+      <div class="pub-venue">ACL 2026</div>
+    </div>
+
+    <div class="pub-item">
+      <span class="pub-status status-review">Under Review</span>
+      <div class="pub-title">RealFin: How Well Do LLMs Reason About Finance When Users Leave Things Unsaid?</div>
+      <div class="pub-venue">ACL 2026</div>
+    </div>
+
+    <div class="pub-item">
+      <span class="pub-status status-published">Published</span>
+      <div class="pub-title">Little Metacognition in Reasoning and Nonreasoning Large Language Models</div>
+      <div class="pub-authors"><span class="me">Dai, Y.</span>, Huang, T.-R.</div>
+      <div class="pub-venue">Minds and Machines (JCR Q1)</div>
+    </div>
+
+    <p style="margin-top: 16px;">
+      <a href="publications.html" style="font-size: 0.9rem; font-weight: 500;">View all publications →</a>
+    </p>
+  </section>
+
+  <!-- ====== Education ====== -->
+  <section>
+    <h2 class="section-title">Education</h2>
+
+    <div class="exp-item">
+      <div class="exp-period">2026 – 2030</div>
+      <div class="exp-content">
+        <h3>PhD of Computer Science</h3>
+        <div class="org">Florida State University</div>
+        <p>Tallahassee, FL, USA</p>
+      </div>
+    </div>
+
+    <div class="exp-item">
+      <div class="exp-period">Aug – Dec 2024</div>
+      <div class="exp-content">
+        <h3>Exchange Student (GPA: 4.0/4.0)</h3>
+        <div class="org">University of California, Berkeley</div>
+        <p>Berkeley, CA, USA</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== Footer ====== -->
+  <footer class="footer">
+    <span>© 2026 Yuyang Dai</span>
+    <span>Last updated: Feb 2026</span>
+  </footer>
 
 </main>
 
